@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body{
+     width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/***********
+    Logo
+***********/
+
+h1{
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+}
+
+/****************
+    Navegacion
+****************/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.nav-links{
+    list-style: none;
+    margin: 1em;
+}
+
+.links{
+    display: inline;
+}
+
+.a-links{
+    margin: 0em 1em 0em 1em;
+}
+
+/****************
+    Seccion 1
+****************/
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.feature{
+    width: 90%;
+    height: 50%;
+    margin-top: 1em;
+    padding-bottom: 10em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/****************
+    Seccion 2
+****************/
+
+.seccion-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 88%;
+    height: 50%;
+    margin-top: 1em;
+    padding-bottom: 10em;
+    background-color: lightgray;
+}
+
+.box1{
+    margin-top: 1em;
+}
+
+.box2{
+    margin-top: 1em;
+}
+
+.box3{
+    margin-top: 1em;
+}
+
+/**************
+    Footer
+**************/
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.copyright{
+    text-align: center;
+    background-color: lightgray;
+    width: 88%;
+    height: 100%;
+}
+
+/******************
+    Media Query
+******************/
+
+@media (max-width: 492px){
+    .box1{
+        font-size: .8em;
+    }
+
+    .box2{
+        font-size: .8em;
+    }
+
+    .box3{
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 390px){
+    .box1{
+        font-size: .5em;
+    }
+
+    .box2{
+        font-size: .5em;
+    }
+
+    .box3{
+        font-size: .5em;
+    }
+}
